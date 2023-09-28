@@ -1,4 +1,4 @@
-import type { GetRowKey, Key } from '@/interface';
+import type { GetRowKey, Key } from '../interface';
 import * as React from 'react';
 
 // recursion (flat tree structure)
