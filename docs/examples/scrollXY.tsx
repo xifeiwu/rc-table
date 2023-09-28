@@ -44,7 +44,8 @@ const Demo = () => {
       </button>
       <div style={{ display: visible ? undefined : 'none' }}>
         <Table
-          useFixedHeader
+          // useFixedHeader
+          showHeader={true}
           style={{ width: 800 }}
           scroll={{ x: 1500, y: 300 }}
           columns={columns}

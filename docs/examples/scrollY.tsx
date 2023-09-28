@@ -18,7 +18,7 @@ class Demo extends React.Component {
   };
 
   toggleBody = () => {
-    this.setState(({ showBody }) => ({ showBody: !showBody }));
+    // this.setState(({ showBody }) => ({ showBody: !showBody }));
   };
 
   render() {
@@ -46,9 +46,9 @@ class Demo extends React.Component {
         data={data}
         scroll={{ y: 300 }}
         rowKey={record => record.key}
-        bodyStyle={{
-          display: showBody ? '' : 'none',
-        }}
+        // bodyStyle={{
+        //   display: showBody ? '' : 'none',
+        // }}
       />
     );
   }
